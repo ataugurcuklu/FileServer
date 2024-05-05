@@ -1,0 +1,20 @@
+{
+  "name": "fileserver",
+  "module": "./server/index.ts",
+  "scripts": {
+    "start": "bun ./server/index.ts",
+    "dev": "bun --watch ./server/index.ts",
+    "build": "bun build --compile --target=bun-windows-x64 ./server/index.ts --outfile fileserver"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.3.0",
+    "zod": "^3.23.6"
+  }
+}
