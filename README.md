@@ -1,4 +1,14 @@
-# fileserver
+# FileServer
+
+A simple file server for serving files from a directory.
+Server is written with Bun and Hono.
+The frontend is written in React with TypeScript using Vite.
+
+# Screenshots
+
+[dark](frontend/public/dark.png)
+
+[light](frontend/public/light.png)
 
 To install dependencies:
 
@@ -11,5 +21,3 @@ To run:
 ```bash
 bun run index.ts
 ```
-
-This project was created using `bun init` in bun v1.1.6. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
