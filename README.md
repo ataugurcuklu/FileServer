@@ -6,9 +6,9 @@ The frontend is written in React with TypeScript using Vite.
 
 # Screenshots
 
-[dark](frontend/public/dark.png)
+![dark](frontend/public/dark.png)
 
-[light](frontend/public/light.png)
+![light](frontend/public/light.png)
 
 To install dependencies:
 
